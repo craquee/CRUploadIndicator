@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "CRUploadIndicator"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "A short description of CRUploadIndicator."
 
   s.description  = <<-DESC
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, '5.1'
 
-  s.source       = { :git => "git@github.com:craquee/CRUploadIndicator.git", :tag => "0.1.1" }
+  s.source       = { :git => "git@github.com:craquee/CRUploadIndicator.git", :tag => "0.0.2" }
 
   s.source_files  = 'CRUploadIndicator/**/*.{h,m}'
   s.exclude_files = 'CRUploadIndicator/**/*Tests.{h,m}'
