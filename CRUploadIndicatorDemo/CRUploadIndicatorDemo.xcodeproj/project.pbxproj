@@ -45,7 +45,6 @@
 		6486246E180E540600EDD83E /* CRUploadIndicatorDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CRUploadIndicatorDemo-Prefix.pch"; sourceTree = "<group>"; };
 		6486246F180E540600EDD83E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		64862470180E540600EDD83E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		64862473180E540600EDD83E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		64862475180E540600EDD83E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		64862476180E540600EDD83E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		64862478180E540600EDD83E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -327,7 +326,6 @@
 		64862472180E540600EDD83E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				64862473180E540600EDD83E /* Base */,
 				6486249B180E82AB00EDD83E /* en */,
 			);
 			name = Main.storyboard;
