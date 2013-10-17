@@ -2,7 +2,7 @@
 //  AppDelegate.h
 //  CRUploadIndicatorDemo
 //
-//  Created by Tomoya Igarashi on 10/15/13.
+//  Created by Tomoya Igarashi on 10/16/13.
 //  Copyright (c) 2013 Couger Inc. All rights reserved.
 //
 

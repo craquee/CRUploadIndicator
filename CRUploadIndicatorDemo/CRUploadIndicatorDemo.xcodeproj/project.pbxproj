@@ -7,144 +7,154 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		643E3FF4180D76C000721A21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 643E3FF3180D76C000721A21 /* Foundation.framework */; };
-		643E3FF6180D76C000721A21 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 643E3FF5180D76C000721A21 /* CoreGraphics.framework */; };
-		643E3FF8180D76C000721A21 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 643E3FF7180D76C000721A21 /* UIKit.framework */; };
-		643E3FFE180D76C000721A21 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 643E3FFC180D76C000721A21 /* InfoPlist.strings */; };
-		643E4000180D76C000721A21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 643E3FFF180D76C000721A21 /* main.m */; };
-		643E4004180D76C000721A21 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 643E4003180D76C000721A21 /* AppDelegate.m */; };
-		643E400A180D76C000721A21 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 643E4009180D76C000721A21 /* ViewController.m */; };
-		643E400C180D76C000721A21 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 643E400B180D76C000721A21 /* Images.xcassets */; };
-		643E4013180D76C000721A21 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 643E4012180D76C000721A21 /* XCTest.framework */; };
-		643E4014180D76C000721A21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 643E3FF3180D76C000721A21 /* Foundation.framework */; };
-		643E4015180D76C000721A21 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 643E3FF7180D76C000721A21 /* UIKit.framework */; };
-		643E401D180D76C000721A21 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 643E401B180D76C000721A21 /* InfoPlist.strings */; };
-		643E401F180D76C000721A21 /* CRUploadIndicatorDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 643E401E180D76C000721A21 /* CRUploadIndicatorDemoTests.m */; };
+		64862461180E540600EDD83E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64862460180E540600EDD83E /* Foundation.framework */; };
+		64862463180E540600EDD83E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64862462180E540600EDD83E /* CoreGraphics.framework */; };
+		64862465180E540600EDD83E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64862464180E540600EDD83E /* UIKit.framework */; };
+		6486246B180E540600EDD83E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64862469180E540600EDD83E /* InfoPlist.strings */; };
+		6486246D180E540600EDD83E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6486246C180E540600EDD83E /* main.m */; };
+		64862471180E540600EDD83E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64862470180E540600EDD83E /* AppDelegate.m */; };
+		64862474180E540600EDD83E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64862472180E540600EDD83E /* Main.storyboard */; };
+		64862477180E540600EDD83E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64862476180E540600EDD83E /* ViewController.m */; };
+		64862479180E540600EDD83E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64862478180E540600EDD83E /* Images.xcassets */; };
+		64862480180E540600EDD83E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6486247F180E540600EDD83E /* XCTest.framework */; };
+		64862481180E540600EDD83E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64862460180E540600EDD83E /* Foundation.framework */; };
+		64862482180E540600EDD83E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64862464180E540600EDD83E /* UIKit.framework */; };
+		6486248A180E540600EDD83E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64862488180E540600EDD83E /* InfoPlist.strings */; };
+		6486248C180E540600EDD83E /* CRUploadIndicatorDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6486248B180E540600EDD83E /* CRUploadIndicatorDemoTests.m */; };
+		B0ED0663F58C44AC84E70DC3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 729AB21B4C54485E8A4EC568 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		643E4016180D76C000721A21 /* PBXContainerItemProxy */ = {
+		64862483180E540600EDD83E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 643E3FE8180D76C000721A21 /* Project object */;
+			containerPortal = 64862455180E540600EDD83E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 643E3FEF180D76C000721A21;
+			remoteGlobalIDString = 6486245C180E540600EDD83E;
 			remoteInfo = CRUploadIndicatorDemo;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		643E3FF0180D76C000721A21 /* CRUploadIndicatorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CRUploadIndicatorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		643E3FF3180D76C000721A21 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		643E3FF5180D76C000721A21 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		643E3FF7180D76C000721A21 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		643E3FFB180D76C000721A21 /* CRUploadIndicatorDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CRUploadIndicatorDemo-Info.plist"; sourceTree = "<group>"; };
-		643E3FFD180D76C000721A21 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		643E3FFF180D76C000721A21 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		643E4001180D76C000721A21 /* CRUploadIndicatorDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CRUploadIndicatorDemo-Prefix.pch"; sourceTree = "<group>"; };
-		643E4002180D76C000721A21 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		643E4003180D76C000721A21 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		643E4008180D76C000721A21 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		643E4009180D76C000721A21 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		643E400B180D76C000721A21 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		643E4011180D76C000721A21 /* CRUploadIndicatorDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CRUploadIndicatorDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		643E4012180D76C000721A21 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		643E401A180D76C000721A21 /* CRUploadIndicatorDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CRUploadIndicatorDemoTests-Info.plist"; sourceTree = "<group>"; };
-		643E401C180D76C000721A21 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		643E401E180D76C000721A21 /* CRUploadIndicatorDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRUploadIndicatorDemoTests.m; sourceTree = "<group>"; };
+		6486245D180E540600EDD83E /* CRUploadIndicatorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CRUploadIndicatorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64862460180E540600EDD83E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		64862462180E540600EDD83E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		64862464180E540600EDD83E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		64862468180E540600EDD83E /* CRUploadIndicatorDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CRUploadIndicatorDemo-Info.plist"; sourceTree = "<group>"; };
+		6486246A180E540600EDD83E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6486246C180E540600EDD83E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6486246E180E540600EDD83E /* CRUploadIndicatorDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CRUploadIndicatorDemo-Prefix.pch"; sourceTree = "<group>"; };
+		6486246F180E540600EDD83E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		64862470180E540600EDD83E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		64862473180E540600EDD83E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64862475180E540600EDD83E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		64862476180E540600EDD83E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		64862478180E540600EDD83E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6486247E180E540600EDD83E /* CRUploadIndicatorDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CRUploadIndicatorDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6486247F180E540600EDD83E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		64862487180E540600EDD83E /* CRUploadIndicatorDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CRUploadIndicatorDemoTests-Info.plist"; sourceTree = "<group>"; };
+		64862489180E540600EDD83E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6486248B180E540600EDD83E /* CRUploadIndicatorDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRUploadIndicatorDemoTests.m; sourceTree = "<group>"; };
+		6486249B180E82AB00EDD83E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
+		729AB21B4C54485E8A4EC568 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D166977E94E54D6BA25E5DE5 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		643E3FED180D76C000721A21 /* Frameworks */ = {
+		6486245A180E540600EDD83E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				643E3FF6180D76C000721A21 /* CoreGraphics.framework in Frameworks */,
-				643E3FF8180D76C000721A21 /* UIKit.framework in Frameworks */,
-				643E3FF4180D76C000721A21 /* Foundation.framework in Frameworks */,
+				64862463180E540600EDD83E /* CoreGraphics.framework in Frameworks */,
+				64862465180E540600EDD83E /* UIKit.framework in Frameworks */,
+				64862461180E540600EDD83E /* Foundation.framework in Frameworks */,
+				B0ED0663F58C44AC84E70DC3 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		643E400E180D76C000721A21 /* Frameworks */ = {
+		6486247B180E540600EDD83E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				643E4013180D76C000721A21 /* XCTest.framework in Frameworks */,
-				643E4015180D76C000721A21 /* UIKit.framework in Frameworks */,
-				643E4014180D76C000721A21 /* Foundation.framework in Frameworks */,
+				64862480180E540600EDD83E /* XCTest.framework in Frameworks */,
+				64862482180E540600EDD83E /* UIKit.framework in Frameworks */,
+				64862481180E540600EDD83E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		643E3FE7180D76C000721A21 = {
+		64862454180E540600EDD83E = {
 			isa = PBXGroup;
 			children = (
-				643E3FF9180D76C000721A21 /* CRUploadIndicatorDemo */,
-				643E4018180D76C000721A21 /* CRUploadIndicatorDemoTests */,
-				643E3FF2180D76C000721A21 /* Frameworks */,
-				643E3FF1180D76C000721A21 /* Products */,
+				64862466180E540600EDD83E /* CRUploadIndicatorDemo */,
+				64862485180E540600EDD83E /* CRUploadIndicatorDemoTests */,
+				6486245F180E540600EDD83E /* Frameworks */,
+				6486245E180E540600EDD83E /* Products */,
+				D166977E94E54D6BA25E5DE5 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
-		643E3FF1180D76C000721A21 /* Products */ = {
+		6486245E180E540600EDD83E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				643E3FF0180D76C000721A21 /* CRUploadIndicatorDemo.app */,
-				643E4011180D76C000721A21 /* CRUploadIndicatorDemoTests.xctest */,
+				6486245D180E540600EDD83E /* CRUploadIndicatorDemo.app */,
+				6486247E180E540600EDD83E /* CRUploadIndicatorDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		643E3FF2180D76C000721A21 /* Frameworks */ = {
+		6486245F180E540600EDD83E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				643E3FF3180D76C000721A21 /* Foundation.framework */,
-				643E3FF5180D76C000721A21 /* CoreGraphics.framework */,
-				643E3FF7180D76C000721A21 /* UIKit.framework */,
-				643E4012180D76C000721A21 /* XCTest.framework */,
+				64862460180E540600EDD83E /* Foundation.framework */,
+				64862462180E540600EDD83E /* CoreGraphics.framework */,
+				64862464180E540600EDD83E /* UIKit.framework */,
+				6486247F180E540600EDD83E /* XCTest.framework */,
+				729AB21B4C54485E8A4EC568 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		643E3FF9180D76C000721A21 /* CRUploadIndicatorDemo */ = {
+		64862466180E540600EDD83E /* CRUploadIndicatorDemo */ = {
 			isa = PBXGroup;
 			children = (
-				643E4002180D76C000721A21 /* AppDelegate.h */,
-				643E4003180D76C000721A21 /* AppDelegate.m */,
-				643E4008180D76C000721A21 /* ViewController.h */,
-				643E4009180D76C000721A21 /* ViewController.m */,
-				643E400B180D76C000721A21 /* Images.xcassets */,
-				643E3FFA180D76C000721A21 /* Supporting Files */,
+				6486246F180E540600EDD83E /* AppDelegate.h */,
+				64862470180E540600EDD83E /* AppDelegate.m */,
+				64862472180E540600EDD83E /* Main.storyboard */,
+				64862475180E540600EDD83E /* ViewController.h */,
+				64862476180E540600EDD83E /* ViewController.m */,
+				64862478180E540600EDD83E /* Images.xcassets */,
+				64862467180E540600EDD83E /* Supporting Files */,
 			);
 			path = CRUploadIndicatorDemo;
 			sourceTree = "<group>";
 		};
-		643E3FFA180D76C000721A21 /* Supporting Files */ = {
+		64862467180E540600EDD83E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				643E3FFB180D76C000721A21 /* CRUploadIndicatorDemo-Info.plist */,
-				643E3FFC180D76C000721A21 /* InfoPlist.strings */,
-				643E3FFF180D76C000721A21 /* main.m */,
-				643E4001180D76C000721A21 /* CRUploadIndicatorDemo-Prefix.pch */,
+				64862468180E540600EDD83E /* CRUploadIndicatorDemo-Info.plist */,
+				64862469180E540600EDD83E /* InfoPlist.strings */,
+				6486246C180E540600EDD83E /* main.m */,
+				6486246E180E540600EDD83E /* CRUploadIndicatorDemo-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		643E4018180D76C000721A21 /* CRUploadIndicatorDemoTests */ = {
+		64862485180E540600EDD83E /* CRUploadIndicatorDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				643E401E180D76C000721A21 /* CRUploadIndicatorDemoTests.m */,
-				643E4019180D76C000721A21 /* Supporting Files */,
+				6486248B180E540600EDD83E /* CRUploadIndicatorDemoTests.m */,
+				64862486180E540600EDD83E /* Supporting Files */,
 			);
 			path = CRUploadIndicatorDemoTests;
 			sourceTree = "<group>";
 		};
-		643E4019180D76C000721A21 /* Supporting Files */ = {
+		64862486180E540600EDD83E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				643E401A180D76C000721A21 /* CRUploadIndicatorDemoTests-Info.plist */,
-				643E401B180D76C000721A21 /* InfoPlist.strings */,
+				64862487180E540600EDD83E /* CRUploadIndicatorDemoTests-Info.plist */,
+				64862488180E540600EDD83E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -152,13 +162,15 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		643E3FEF180D76C000721A21 /* CRUploadIndicatorDemo */ = {
+		6486245C180E540600EDD83E /* CRUploadIndicatorDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 643E4022180D76C000721A21 /* Build configuration list for PBXNativeTarget "CRUploadIndicatorDemo" */;
+			buildConfigurationList = 6486248F180E540600EDD83E /* Build configuration list for PBXNativeTarget "CRUploadIndicatorDemo" */;
 			buildPhases = (
-				643E3FEC180D76C000721A21 /* Sources */,
-				643E3FED180D76C000721A21 /* Frameworks */,
-				643E3FEE180D76C000721A21 /* Resources */,
+				58FC646FD16D4AD1A1C50971 /* Check Pods Manifest.lock */,
+				64862459180E540600EDD83E /* Sources */,
+				6486245A180E540600EDD83E /* Frameworks */,
+				6486245B180E540600EDD83E /* Resources */,
+				F44AABFC3013424BB9B366CF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -166,42 +178,42 @@
 			);
 			name = CRUploadIndicatorDemo;
 			productName = CRUploadIndicatorDemo;
-			productReference = 643E3FF0180D76C000721A21 /* CRUploadIndicatorDemo.app */;
+			productReference = 6486245D180E540600EDD83E /* CRUploadIndicatorDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		643E4010180D76C000721A21 /* CRUploadIndicatorDemoTests */ = {
+		6486247D180E540600EDD83E /* CRUploadIndicatorDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 643E4025180D76C000721A21 /* Build configuration list for PBXNativeTarget "CRUploadIndicatorDemoTests" */;
+			buildConfigurationList = 64862492180E540600EDD83E /* Build configuration list for PBXNativeTarget "CRUploadIndicatorDemoTests" */;
 			buildPhases = (
-				643E400D180D76C000721A21 /* Sources */,
-				643E400E180D76C000721A21 /* Frameworks */,
-				643E400F180D76C000721A21 /* Resources */,
+				6486247A180E540600EDD83E /* Sources */,
+				6486247B180E540600EDD83E /* Frameworks */,
+				6486247C180E540600EDD83E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				643E4017180D76C000721A21 /* PBXTargetDependency */,
+				64862484180E540600EDD83E /* PBXTargetDependency */,
 			);
 			name = CRUploadIndicatorDemoTests;
 			productName = CRUploadIndicatorDemoTests;
-			productReference = 643E4011180D76C000721A21 /* CRUploadIndicatorDemoTests.xctest */;
+			productReference = 6486247E180E540600EDD83E /* CRUploadIndicatorDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		643E3FE8180D76C000721A21 /* Project object */ = {
+		64862455180E540600EDD83E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Couger Inc.";
 				TargetAttributes = {
-					643E4010180D76C000721A21 = {
-						TestTargetID = 643E3FEF180D76C000721A21;
+					6486247D180E540600EDD83E = {
+						TestTargetID = 6486245C180E540600EDD83E;
 					};
 				};
 			};
-			buildConfigurationList = 643E3FEB180D76C000721A21 /* Build configuration list for PBXProject "CRUploadIndicatorDemo" */;
+			buildConfigurationList = 64862458180E540600EDD83E /* Build configuration list for PBXProject "CRUploadIndicatorDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -209,79 +221,122 @@
 				en,
 				Base,
 			);
-			mainGroup = 643E3FE7180D76C000721A21;
-			productRefGroup = 643E3FF1180D76C000721A21 /* Products */;
+			mainGroup = 64862454180E540600EDD83E;
+			productRefGroup = 6486245E180E540600EDD83E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				643E3FEF180D76C000721A21 /* CRUploadIndicatorDemo */,
-				643E4010180D76C000721A21 /* CRUploadIndicatorDemoTests */,
+				6486245C180E540600EDD83E /* CRUploadIndicatorDemo */,
+				6486247D180E540600EDD83E /* CRUploadIndicatorDemoTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		643E3FEE180D76C000721A21 /* Resources */ = {
+		6486245B180E540600EDD83E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				643E400C180D76C000721A21 /* Images.xcassets in Resources */,
-				643E3FFE180D76C000721A21 /* InfoPlist.strings in Resources */,
+				64862479180E540600EDD83E /* Images.xcassets in Resources */,
+				6486246B180E540600EDD83E /* InfoPlist.strings in Resources */,
+				64862474180E540600EDD83E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		643E400F180D76C000721A21 /* Resources */ = {
+		6486247C180E540600EDD83E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				643E401D180D76C000721A21 /* InfoPlist.strings in Resources */,
+				6486248A180E540600EDD83E /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		58FC646FD16D4AD1A1C50971 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F44AABFC3013424BB9B366CF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		643E3FEC180D76C000721A21 /* Sources */ = {
+		64862459180E540600EDD83E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				643E400A180D76C000721A21 /* ViewController.m in Sources */,
-				643E4004180D76C000721A21 /* AppDelegate.m in Sources */,
-				643E4000180D76C000721A21 /* main.m in Sources */,
+				64862477180E540600EDD83E /* ViewController.m in Sources */,
+				64862471180E540600EDD83E /* AppDelegate.m in Sources */,
+				6486246D180E540600EDD83E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		643E400D180D76C000721A21 /* Sources */ = {
+		6486247A180E540600EDD83E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				643E401F180D76C000721A21 /* CRUploadIndicatorDemoTests.m in Sources */,
+				6486248C180E540600EDD83E /* CRUploadIndicatorDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		643E4017180D76C000721A21 /* PBXTargetDependency */ = {
+		64862484180E540600EDD83E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 643E3FEF180D76C000721A21 /* CRUploadIndicatorDemo */;
-			targetProxy = 643E4016180D76C000721A21 /* PBXContainerItemProxy */;
+			target = 6486245C180E540600EDD83E /* CRUploadIndicatorDemo */;
+			targetProxy = 64862483180E540600EDD83E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		643E3FFC180D76C000721A21 /* InfoPlist.strings */ = {
+		64862469180E540600EDD83E /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				643E3FFD180D76C000721A21 /* en */,
+				6486246A180E540600EDD83E /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		643E401B180D76C000721A21 /* InfoPlist.strings */ = {
+		64862472180E540600EDD83E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				643E401C180D76C000721A21 /* en */,
+				64862473180E540600EDD83E /* Base */,
+				6486249B180E82AB00EDD83E /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		64862488180E540600EDD83E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64862489180E540600EDD83E /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -289,7 +344,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		643E4020180D76C000721A21 /* Debug */ = {
+		6486248D180E540600EDD83E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -328,7 +383,7 @@
 			};
 			name = Debug;
 		};
-		643E4021180D76C000721A21 /* Release */ = {
+		6486248E180E540600EDD83E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -361,8 +416,9 @@
 			};
 			name = Release;
 		};
-		643E4023180D76C000721A21 /* Debug */ = {
+		64862490180E540600EDD83E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D166977E94E54D6BA25E5DE5 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -374,8 +430,9 @@
 			};
 			name = Debug;
 		};
-		643E4024180D76C000721A21 /* Release */ = {
+		64862491180E540600EDD83E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D166977E94E54D6BA25E5DE5 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -387,7 +444,7 @@
 			};
 			name = Release;
 		};
-		643E4026180D76C000721A21 /* Debug */ = {
+		64862493180E540600EDD83E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
@@ -410,7 +467,7 @@
 			};
 			name = Debug;
 		};
-		643E4027180D76C000721A21 /* Release */ = {
+		64862494180E540600EDD83E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
@@ -432,32 +489,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		643E3FEB180D76C000721A21 /* Build configuration list for PBXProject "CRUploadIndicatorDemo" */ = {
+		64862458180E540600EDD83E /* Build configuration list for PBXProject "CRUploadIndicatorDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				643E4020180D76C000721A21 /* Debug */,
-				643E4021180D76C000721A21 /* Release */,
+				6486248D180E540600EDD83E /* Debug */,
+				6486248E180E540600EDD83E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		643E4022180D76C000721A21 /* Build configuration list for PBXNativeTarget "CRUploadIndicatorDemo" */ = {
+		6486248F180E540600EDD83E /* Build configuration list for PBXNativeTarget "CRUploadIndicatorDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				643E4023180D76C000721A21 /* Debug */,
-				643E4024180D76C000721A21 /* Release */,
+				64862490180E540600EDD83E /* Debug */,
+				64862491180E540600EDD83E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		643E4025180D76C000721A21 /* Build configuration list for PBXNativeTarget "CRUploadIndicatorDemoTests" */ = {
+		64862492180E540600EDD83E /* Build configuration list for PBXNativeTarget "CRUploadIndicatorDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				643E4026180D76C000721A21 /* Debug */,
-				643E4027180D76C000721A21 /* Release */,
+				64862493180E540600EDD83E /* Debug */,
+				64862494180E540600EDD83E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 643E3FE8180D76C000721A21 /* Project object */;
+	rootObject = 64862455180E540600EDD83E /* Project object */;
 }

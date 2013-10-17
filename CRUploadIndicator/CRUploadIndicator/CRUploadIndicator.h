@@ -8,6 +8,25 @@
 
 #import <Foundation/Foundation.h>
 
+#import <CRUploadIndicatorView.h>
+
+typedef NS_ENUM(NSUInteger, CRUploadIndicatorStatus) {
+    kCRUploadIndicatorReady = 0,
+    kCRUploadIndicatorDoing,
+    kCRUploadIndicatorDone,
+};
+
+typedef void(^DidCompleteAnimation)(BOOL finished);
+
 @interface CRUploadIndicator : NSObject
+
+@property (strong, nonatomic) CRUploadIndicatorView *view;
+@property (unsafe_unretained, nonatomic, readonly) CRUploadIndicatorStatus status;
+
+- (id)init;
+- (void)resetStatus;
+- (void)startProgress:(UITableView *)tableView;
+- (void)updateProgress:(CGFloat)currentProgress;
+- (void)didSucceed:(UITableView *)tableView duration:(CGFloat)duration delay:(CGFloat)delay didCompleteAnimation:(DidCompleteAnimation)didCompleteAnimation;
 
 @end

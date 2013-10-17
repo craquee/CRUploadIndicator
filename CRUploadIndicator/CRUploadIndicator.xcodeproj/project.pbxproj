@@ -16,6 +16,7 @@
 		643E3F95180D6A9E00721A21 /* libCRUploadIndicator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 643E3F7D180D6A9E00721A21 /* libCRUploadIndicator.a */; };
 		643E3F9B180D6A9E00721A21 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 643E3F99180D6A9E00721A21 /* InfoPlist.strings */; };
 		643E3F9D180D6A9E00721A21 /* CRUploadIndicatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 643E3F9C180D6A9E00721A21 /* CRUploadIndicatorTests.m */; };
+		64862497180E589F00EDD83E /* CRUploadIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64862496180E589F00EDD83E /* CRUploadIndicatorView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,9 @@
 		643E3F98180D6A9E00721A21 /* CRUploadIndicatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CRUploadIndicatorTests-Info.plist"; sourceTree = "<group>"; };
 		643E3F9A180D6A9E00721A21 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		643E3F9C180D6A9E00721A21 /* CRUploadIndicatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRUploadIndicatorTests.m; sourceTree = "<group>"; };
+		64862495180E589F00EDD83E /* CRUploadIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRUploadIndicatorView.h; sourceTree = "<group>"; };
+		64862496180E589F00EDD83E /* CRUploadIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRUploadIndicatorView.m; sourceTree = "<group>"; };
+		64862498180E58D000EDD83E /* CRUploadIndicatorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CRUploadIndicatorView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,9 @@
 			children = (
 				643E3F85180D6A9E00721A21 /* CRUploadIndicator.h */,
 				643E3F87180D6A9E00721A21 /* CRUploadIndicator.m */,
+				64862495180E589F00EDD83E /* CRUploadIndicatorView.h */,
+				64862496180E589F00EDD83E /* CRUploadIndicatorView.m */,
+				64862498180E58D000EDD83E /* CRUploadIndicatorView.xib */,
 				643E3F83180D6A9E00721A21 /* Supporting Files */,
 			);
 			path = CRUploadIndicator;
@@ -224,6 +231,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64862497180E589F00EDD83E /* CRUploadIndicatorView.m in Sources */,
 				643E3F88180D6A9E00721A21 /* CRUploadIndicator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +417,7 @@
 				643E3FA2180D6A9E00721A21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		643E3FA3180D6A9E00721A21 /* Build configuration list for PBXNativeTarget "CRUploadIndicatorTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +426,7 @@
 				643E3FA5180D6A9E00721A21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
