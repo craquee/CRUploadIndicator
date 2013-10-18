@@ -37,7 +37,6 @@
     
     [_view.progressView setProgress:0.f animated:NO];
     [_view.indicatorView startAnimating];
-    [_view.labelStatus setText:NSLocalizedString(@"uploading...", nil)];
     
     _view.hidden = NO;
     [tableView.superview insertSubview:_view atIndex:0];
@@ -61,7 +60,6 @@
     _status = kCRUploadIndicatorDone;
     
     [_view.indicatorView stopAnimating];
-    [_view.labelStatus setText:NSLocalizedString(@"done!", nil)];
     
     CGFloat offset = CGRectGetHeight(_view.frame);
     [UIView animateWithDuration:duration

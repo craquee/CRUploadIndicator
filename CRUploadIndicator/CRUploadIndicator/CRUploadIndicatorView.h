@@ -12,6 +12,5 @@
 
 @property (unsafe_unretained, nonatomic) IBOutlet UIProgressView *progressView;
 @property (unsafe_unretained, nonatomic) IBOutlet UIActivityIndicatorView *indicatorView;
-@property (unsafe_unretained, nonatomic) IBOutlet UILabel *labelStatus;
 
 @end
