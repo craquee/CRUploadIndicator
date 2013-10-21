@@ -12,18 +12,16 @@
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
                 <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" id="zpb-ya-RpX">
-                    <rect key="frame" x="50" y="21" width="240" height="2"/>
+                    <rect key="frame" x="40" y="21" width="240" height="2"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="tintColor" red="1" green="0.57647058819999997" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <inset key="insetFor6xAndEarlier" minX="0.0" minY="4" maxX="0.0" maxY="-4"/>
+                    <color key="progressTintColor" red="1" green="0.57647058819999997" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
                 </progressView>
-                <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" id="7AM-aL-2Cq">
-                    <rect key="frame" x="20" y="12" width="20" height="20"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                </activityIndicatorView>
             </subviews>
-            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
-                <outlet property="indicatorView" destination="7AM-aL-2Cq" id="rSz-gT-1L5"/>
                 <outlet property="progressView" destination="zpb-ya-RpX" id="XJa-nb-akg"/>
             </connections>
         </view>

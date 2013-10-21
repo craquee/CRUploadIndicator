@@ -11,6 +11,5 @@
 @interface CRUploadIndicatorView : UIView
 
 @property (unsafe_unretained, nonatomic) IBOutlet UIProgressView *progressView;
-@property (unsafe_unretained, nonatomic) IBOutlet UIActivityIndicatorView *indicatorView;
 
 @end

@@ -1,5 +1,5 @@
 PODS:
-  - CRUploadIndicator (0.0.1)
+  - CRUploadIndicator (0.0.4)
 
 DEPENDENCIES:
   - CRUploadIndicator (from `..`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ..
 
 SPEC CHECKSUMS:
-  CRUploadIndicator: 3f2bb0a71ddfacb612d043763fd1f51963f3d16e
+  CRUploadIndicator: c376bae4f7dfee475aab39d141cbdd13f703abbc
 
 COCOAPODS: 0.25.0

@@ -26,7 +26,6 @@
     _status = kCRUploadIndicatorReady;
     
     _view.progressView.progress = 0.f;
-    [_view.indicatorView stopAnimating];
     
     _view.hidden = YES;
     [_view removeFromSuperview];
@@ -36,7 +35,6 @@
     _status = kCRUploadIndicatorDoing;
     
     [_view.progressView setProgress:0.f animated:NO];
-    [_view.indicatorView startAnimating];
     
     _view.hidden = NO;
     [tableView.superview insertSubview:_view atIndex:0];
@@ -59,12 +57,11 @@
 - (void)didSucceed:(UITableView *)tableView duration:(CGFloat)duration delay:(CGFloat)delay didCompleteAnimation:(DidCompleteAnimation)didCompleteAnimation {
     _status = kCRUploadIndicatorDone;
     
-    [_view.indicatorView stopAnimating];
     
     CGFloat offset = CGRectGetHeight(_view.frame);
     [UIView animateWithDuration:duration
                           delay:delay
-                        options:UIViewAnimationCurveEaseInOut
+                        options:UIViewAnimationOptionCurveEaseInOut
                      animations:^{
                          CGRect frame = CGRectMake(0.f, 0.f, CGRectGetWidth(tableView.frame), CGRectGetHeight(tableView.frame) + offset);
                          tableView.frame = frame;
