@@ -26,7 +26,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    _uploadIndicator = [[CRUploadIndicator alloc] init];
+    _uploadIndicator = [[CRUploadIndicator alloc] initWithTableView:self.tableView];
     [_uploadIndicator resetStatus];
     
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"ON" style:UIBarButtonItemStyleBordered target:self action:@selector(tapBarButtonItem:)];

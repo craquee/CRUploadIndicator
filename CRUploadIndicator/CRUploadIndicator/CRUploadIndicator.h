@@ -23,7 +23,7 @@ typedef void(^DidCompleteAnimation)(BOOL finished);
 @property (strong, nonatomic) CRUploadIndicatorView *view;
 @property (unsafe_unretained, nonatomic, readonly) CRUploadIndicatorStatus status;
 
-- (id)init;
+- (id)initWithTableView:(UITableView *)tableView;
 - (void)resetStatus;
 - (void)startProgress:(UITableView *)tableView;
 - (void)updateProgress:(CGFloat)currentProgress;

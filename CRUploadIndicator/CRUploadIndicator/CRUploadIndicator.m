@@ -10,12 +10,13 @@
 
 @implementation CRUploadIndicator
 
-- (id)init {
+- (id)initWithTableView:(UITableView *)tableView {
     self = [super init];
     
     if (self) {
         NSArray *nib = [[NSBundle mainBundle] loadNibNamed:@"CRUploadIndicatorView" owner:nil options:nil];
         _view = [nib objectAtIndex:0];
+        [tableView.superview insertSubview:_view atIndex:0];
         _status = kCRUploadIndicatorReady;
     }
     
@@ -28,7 +29,6 @@
     _view.progressView.progress = 0.f;
     
     _view.hidden = YES;
-    [_view removeFromSuperview];
 }
 
 - (void)startProgress:(UITableView *)tableView {
@@ -37,14 +37,13 @@
     [_view.progressView setProgress:0.f animated:NO];
     
     _view.hidden = NO;
-    [tableView.superview insertSubview:_view atIndex:0];
 
     __block UITableView *blockTableView_ = tableView;
     
     CGFloat offset = CGRectGetHeight(_view.frame);
     [UIView animateWithDuration:0.2f
                           delay:0.f
-                        options:UIViewAnimationOptionCurveEaseInOut
+                        options:UIViewAnimationOptionCurveEaseInOut | UIViewAnimationOptionAllowUserInteraction
                      animations:^{
                          CGRect frame = CGRectMake(0.f, offset,
                                                    CGRectGetWidth(blockTableView_.frame),
@@ -67,7 +66,7 @@
     CGFloat offset = CGRectGetHeight(_view.frame);
     [UIView animateWithDuration:duration
                           delay:delay
-                        options:UIViewAnimationOptionCurveEaseInOut
+                        options:UIViewAnimationOptionCurveEaseInOut | UIViewAnimationOptionAllowUserInteraction
                      animations:^{
                          CGRect frame = CGRectMake(0.f, 0.f,
                                                    CGRectGetWidth(blockTableView_.frame),
@@ -79,7 +78,6 @@
                              didCompleteAnimation(finished);
                          }
                          blockView_.hidden = YES;
-                         [blockView_ removeFromSuperview];
                      }];
 }
 
